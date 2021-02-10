@@ -1,0 +1,52 @@
+.wrapper {
+  min-width: 480px;
+  margin: 0 auto;
+}
+.a {
+  min-height: 75px;
+}
+.b {
+  min-height: 150px;
+}
+.c {
+  min-height: 125px;
+}
+.d {
+  min-height: 125px;
+}
+.e {
+  width: 50%;
+  float: left;
+  min-height: 250px;
+}
+.f {
+  width: 50%;
+  float: right;
+  min-height: 250px;
+}
+.g {
+  width: 50%;
+  float: left;
+  min-height: 250px;
+}
+.h {
+  width: 50%;
+  float: right;
+  min-height: 250px;
+}
+.i {
+  min-height: 80px;
+}
+.eff {
+  margin: 0;
+}
+.guh {
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .a {
+    min-width: 768px;
+    width: 100%;
+    margin:0 auto;
+      }
+      }
