@@ -7,13 +7,9 @@ body {
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  box-sizing: border-box;
 }
 div {
   min-height: 100px;
   line-height: 100px; 
-}
-.wrapper {
-  width: 480px;
-  margin: 0 auto;
-  border: 2px solid black;
 }
