@@ -5,22 +5,72 @@ div {
   border: 2px solid black;
 }
 
-/* 
-#195e83
-#edb879
-#e07b39
-#69bdd2
-#80391e
-#cce7e8
-#042f66
-#b97455
-#44bcd8
-#5c6484
-#a09aa1
-#dce1f1
-#926850
-#946cb7
-#c18e76
-#412c43
-#76519a
-#cdc6bc */
+
+
+.a {
+  background-color:#195e83 ;
+}
+.b {
+  background-color: #edb879;
+}
+.c {
+  background-color: #e07b39;
+}
+.d {
+  background-color:#69bdd2 ;
+}
+.e {
+  background-color: #80391e;
+}
+.f {
+  background-color:#cce7e8 ;
+}
+.g {
+background-color:#042f66 ;
+}
+.h {
+  background-color:#b97455;
+  ;
+
+}
+.i {
+  background-color:#04244b ;
+
+}
+@media( min-width:960px){
+  
+.a {
+  background-color:#5c6484 ;
+}
+.b {
+
+  background-color: #dce1f1;
+}
+.c {
+  background-color: #926850 ;
+}
+.d {
+  background-color:#946cb7 ;
+}
+.e {
+  background-color: #c18e76;
+}
+.f {
+  background-color:#412c43 ;
+}
+.g {
+background-color:#412c43 ;
+}
+.h {
+  background-color:#76519a;
+}
+.i {
+  background-color:#cdc6bc  ;
+}
+}
+
+
+
+
+
+

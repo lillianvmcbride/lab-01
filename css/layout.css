@@ -1,12 +1,13 @@
 .wrapper {
-  min-width: 480px;
+  width: 480px;
   margin: 0 auto;
 }
 .a {
   min-height: 75px;
 }
 .b {
-  min-height: 150px;
+  width:480px;
+  height: 150px;
 }
 .c {
   min-height: 125px;
@@ -43,10 +44,69 @@
 .guh {
   margin: 0;
 }
-@media (min-width: 768px) {
-  .a {
-    min-width: 768px;
+@media (min-width: 960px) {
+  main {
+    width:960px;
+  }
+  .wrapper {
     width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  .a {
+    margin: 0 auto;
+    height: 100px;
+    width: 960px;
     margin:0 auto;
       }
-      }
+    .b {
+      margin: 0 auto;
+      height: 600px;
+      width: 200px;
+      float: left;
+    }
+    .c {
+      margin: 0 auto;
+      height: 200px;
+      width: 380px;
+      float:left;
+    }
+    .d {
+      margin: 0 auto;
+      height: 200px;
+      width: 380px;
+      float: left;
+    }
+    .e {
+      margin: 0 auto;
+      height: 250px;
+      width: 190px;
+      float:left;
+    }
+    .f {
+      margin: 0 auto;
+      height: 250px;
+      width: 190px;
+      float:left;
+    }
+  
+    .g {
+      margin: 0 auto;
+      height: 250px;
+      width: 190px;
+      float:left;
+    }
+    .h {
+      margin: 0 auto;
+      height: 250px;
+      width: 190px;
+      float:left;
+    }
+
+    .i {
+      margin:0 auto;
+      width:760px;
+      height:150px;
+      float:left;
+    }
